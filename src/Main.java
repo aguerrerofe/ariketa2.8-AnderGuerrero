@@ -21,7 +21,18 @@ public class Main {
                     int b = sc.nextInt();
                     System.out.println((a + b));
                     break;
-               
+                case 2:
+                    System.out.println("Sartu zenbaki bat:");
+                    int c = sc.nextInt();
+                    System.out.println("Sartu beste zenbakia:");
+                    int d = sc.nextInt();
+                    System.out.println((c - d));
+                    break;
+
+                default:
+                    System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
+                    n = sc.nextInt();
+                    break;
 
             }
         }
