@@ -28,6 +28,13 @@ public class Main {
                     int d = sc.nextInt();
                     System.out.println((c - d));
                     break;
+                case 3:
+                    System.out.println("Sartu zenbaki bat:");
+                    int e = sc.nextInt();
+                    System.out.println("Sartu beste zenbakia:");
+                    int f = sc.nextInt();
+                    System.out.println((e * f));
+                    break;
 
                 default:
                     System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
