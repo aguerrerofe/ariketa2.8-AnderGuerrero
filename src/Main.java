@@ -11,6 +11,7 @@ public class Main {
         System.out.println("2. Kenketa");
         System.out.println("3. Biderketa");
         System.out.println("4. Zatiketa");
+        System.out.println("5. Faktoriala");
         System.out.println("0. Amaiera");
         while(n!=0) {
             switch (n) {
@@ -41,6 +42,14 @@ public class Main {
                     System.out.println("Sartu beste zenbakia:");
                     float h = sc.nextFloat();
                     System.out.println((g / h));
+                    break;
+                case 5:
+                    System.out.println("Sartu zenbaki bat:");
+                    double i = sc.nextDouble();
+                    for (double j=i;j>0;j--){
+                        i=i*j;
+                    }
+                    System.out.println(i);
                     break;
                 default:
                     System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
