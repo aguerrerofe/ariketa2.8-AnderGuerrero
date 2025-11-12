@@ -35,7 +35,13 @@ public class Main {
                     int f = sc.nextInt();
                     System.out.println((e * f));
                     break;
-
+                case 4:
+                    System.out.println("Sartu zenbaki bat:");
+                    float g = sc.nextFloat();
+                    System.out.println("Sartu beste zenbakia:");
+                    float h = sc.nextFloat();
+                    System.out.println((g / h));
+                    break;
                 default:
                     System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
                     n = sc.nextInt();
