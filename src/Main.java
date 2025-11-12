@@ -11,6 +11,8 @@ public class Main {
         System.out.println("2. Kenketa");
         System.out.println("3. Biderketa");
         System.out.println("4. Zatiketa");
+        System.out.println("5. Erro karratua");
+        System.out.println("6. Berreketa");
         System.out.println("0. Amaiera");
         while(n!=0) {
             switch (n) {
@@ -41,6 +43,18 @@ public class Main {
                     System.out.println("Sartu beste zenbakia:");
                     float h = sc.nextFloat();
                     System.out.println((g / h));
+                    break;
+                case 5:
+                    System.out.println("Sartu zenbaki bat:");
+                    double i = sc.nextDouble();
+                    System.out.println(Math.pow(i,0.5));
+                    break;
+                case 6:
+                    System.out.println("Sartu zenbaki bat:");
+                    double j=sc.nextDouble();
+                    System.out.println("Sartu beste zenbaki:");
+                    double k=sc.nextDouble();
+                    System.out.println(Math.pow(j,k));
                     break;
                 default:
                     System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
