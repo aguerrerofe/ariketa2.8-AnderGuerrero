@@ -14,6 +14,7 @@ public class Main {
         System.out.println("5. Erro karratua");
         System.out.println("6. Berreketa");
         System.out.println("7. Faktoriala");
+        System.out.println("8. Alderantzizkoa");
         System.out.println("0. Amaiera");
         while(n!=0) {
             switch (n) {
@@ -65,6 +66,11 @@ public class Main {
                     }
                     System.out.println(l);
                     break;
+                case 8:
+                    System.out.println("Sartu zenbaki bat:");
+                    double o=sc.nextDouble();
+                    System.out.println("1/"o);
+                        break;
                     default:
                     System.out.println("Sartu beste zenbaki bat menuan dagoena edo 0 programa bukatzeko.");
                     n = sc.nextInt();
